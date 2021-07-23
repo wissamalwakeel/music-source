@@ -18,4 +18,22 @@ services:
   ports:
    - 27017:27017
 ```
-  
+to run the container you need to be in the directory where you have the dockerfile and execute the command 
+```
+docker-compose up 
+```
+or 
+```
+docker-compose up  -d
+```
+to run as a demon
+
+to run the application you need to clone the repository onto your local computer and build using the following command
+```
+mvn clean package
+```
+
+and then start the application with the follwing command
+```
+java -cp music-source-0.0.1-SNAPSHOT.jar -Dloader.main=com.musicsource.app.MusicSourceApplication org.springframework.boot.loader.PropertiesLauncher
+```

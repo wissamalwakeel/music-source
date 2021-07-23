@@ -28,12 +28,14 @@ docker-compose up  -d
 ```
 to run as a demon
 
-to run the application you need to clone the repository onto your local computer and build using the following command
+to Start the service application you need to clone the repository onto your local computer and build using the following command
 ```
 mvn clean package
 ```
 
 and then start the application with the follwing command
 ```
+cd target
 java -cp music-source-<version>.jar -Dloader.main=com.musicsource.app.MusicSourceApplication org.springframework.boot.loader.PropertiesLauncher
 ```
+you need the latest JVM installation on your device, this app is build using Java 11

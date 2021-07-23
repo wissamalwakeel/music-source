@@ -35,5 +35,5 @@ mvn clean package
 
 and then start the application with the follwing command
 ```
-java -cp music-source-0.0.1-SNAPSHOT.jar -Dloader.main=com.musicsource.app.MusicSourceApplication org.springframework.boot.loader.PropertiesLauncher
+java -cp music-source-<version>.jar -Dloader.main=com.musicsource.app.MusicSourceApplication org.springframework.boot.loader.PropertiesLauncher
 ```

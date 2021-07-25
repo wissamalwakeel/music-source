@@ -1,18 +1,20 @@
 package com.musicsource.app;
 
 import com.mongodb.ConnectionString;
-import com.mongodb.client.MongoClient;
 import com.mongodb.MongoClientSettings;
+import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.mongodb.core.MongoTemplate;
 
 @Configuration
 public class MongoConfig {
+
     @Bean
-    public MongoClient mongo() {
-        ConnectionString connectionString = new ConnectionString("mongodb://localhost:27017/albums");
+    public MongoClient mongo(@Value("${mongodb.connection.string}") String mongoDbConnectionString) {
+        ConnectionString connectionString = new ConnectionString(mongoDbConnectionString);
         MongoClientSettings mongoClientSettings = MongoClientSettings.builder()
                 .applyConnectionString(connectionString)
                 .build();
@@ -21,7 +23,7 @@ public class MongoConfig {
     }
 
     @Bean
-    public MongoTemplate mongoTemplate() {
-        return new MongoTemplate(mongo(), "music_source");
+    public MongoTemplate mongoTemplate(@Value("${mongodb.connection.string}") String mongoDbConnectionString) {
+        return new MongoTemplate(mongo(mongoDbConnectionString), "music_source");
     }
 }

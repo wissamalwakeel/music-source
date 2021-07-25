@@ -61,8 +61,12 @@ public class WikipediaService {
         Response response = wiki.basicGET("query", "titles", titles);
         LOGGER.log(Level.INFO, "Queried description from wikipedia for title {}", titles);
         WikiResponse wikiResponse = getWikiResponse(titles, response);
+        return getCleanDescription(wikiResponse);
+    }
+
+    private String getCleanDescription(WikiResponse wikiResponse) { ;
         return ((WikiPageData) ((Map.Entry) wikiResponse.getQuery().getPages().entrySet().toArray()[0]).getValue())
-                .getExtract().replaceAll("<!--[\\s\\S]*?-->", "");
+                .getExtract().replaceAll("(<p class=\\\"mw-empty-elt\\\">\\n+<\\/p>\\n)|(<!--[\\s\\S]*?-->)|(\\n+)", "");
     }
 
     /**

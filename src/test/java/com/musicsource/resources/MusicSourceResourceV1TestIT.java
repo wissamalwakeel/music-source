@@ -23,6 +23,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @AutoConfigureMockMvc
 public class MusicSourceResourceV1TestIT {
+    // I would use wireMock or mockServer to simulate external systems but some of the clients have a built-in hostname
+    // configuration other option would be to use Feign Request Interceptor or OpenFeign to intercept the request and
+    // mock the response, I only used Feign and mockServer once for each, for the mockServer I used a standalone version
+    // for testing multiple services with predefined templates and works as a proxy as well.  
 
     @SpyBean
     WikipediaService wikipediaService;

@@ -11,8 +11,8 @@
     <groupId>com.music.source</groupId>
     <artifactId>music-source</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>music-source</name>
-    <description>Demo project for Spring Boot</description>
+    <name>MusicSourceApplication</name>
+    <description>music source an API to provide the details you want for your favorite artist/s</description>
     <properties>
         <java.version>11</java.version>
     </properties>
@@ -56,15 +56,29 @@
             <version>1.18.20</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <executable>true</executable>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.5.2</version>
+                <configuration>
+                    <mainClass>com.musicsource.app.MusicSourceApplication</mainClass>
+                </configuration>
             </plugin>
         </plugins>
     </build>
-
 </project>

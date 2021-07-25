@@ -1,0 +1,131 @@
+{
+  "mbid": "5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+  "description": "<p class=\"mw-empty-elt\">\n\n\n</p>\n<p><b>Nirvana</b> was an American rock band formed in Aberdeen, Washington in 1987. Founded by lead singer and guitarist Kurt Cobain and bassist Krist Novoselic, the band went through a succession of drummers before recruiting Dave Grohl in 1990. Nirvana's success popularized alternative rock, and they were often referenced as the figurehead band of Generation X. Their music maintains a popular following and continues to influence modern rock and roll culture.\n</p><p>In the late 1980s, Nirvana established itself as part of the Seattle grunge scene, releasing its first album, <i>Bleach</i>, for the independent record label Sub Pop in 1989. They developed a sound that relied on dynamic contrasts, often between quiet verses and loud, heavy choruses. After signing to major label DGC Records in 1991, Nirvana found unexpected mainstream success with \"Smells Like Teen Spirit\", the first single from their landmark second album <i>Nevermind</i> (1991). A cultural phenomenon of the 1990s, <i>Nevermind</i> was certified Diamond by the RIAA and is credited for ending the dominance of hair metal.</p><p>Characterized by their punk aesthetic, Nirvana's fusion of pop melodies with noise, combined with their themes of abjection and social alienation, brought them global popularity. Following extensive tours and the 1992 compilation album <i>Incesticide</i> and EP <i>Hormoaning</i>, the band released their highly anticipated third studio album, <i>In Utero</i> (1993). The album topped both the US and UK album charts, and was acclaimed by critics. Nirvana disbanded following Cobain's suicide in April 1994. Various posthumous releases have been overseen by Novoselic, Grohl, and Cobain's widow Courtney Love. The posthumous live album <i>MTV Unplugged in New York</i> (1994) won Best Alternative Music Performance at the 1996 Grammy Awards.\n</p><p>Nirvana is one of the best-selling bands of all time, having sold more than 75 million records worldwide. During their three years as a mainstream act, Nirvana received an American Music Award, Brit Award and Grammy Award, as well as seven MTV Video Music Awards and two NME Awards. They achieved five number-one hits on the <i>Billboard</i> Alternative Songs chart and four number-one albums on the <i>Billboard</i> 200. In 2004, <i>Rolling Stone</i> named Nirvana among the 100 greatest artists of all time. They were inducted into the Rock and Roll Hall of Fame in their first year of eligibility in 2014.\n</p>\n\n\n",
+  "albums": [
+    {
+      "id": "2a0981fb-9593-3019-864b-ce934d97a16e",
+      "title": "In Utero",
+      "image": "http://coverartarchive.org/release/cc8a35fc-ef70-40b5-b410-c1b5a029a866/26583240736.jpg"
+    },
+    {
+      "id": "c171986d-83d9-4659-9644-ce9dc2b30836",
+      "title": "Live and Loud",
+      "image": "Image Not Found"
+    },
+    {
+      "id": "c01d417b-0e34-3723-9ebe-87de4620080c",
+      "title": "Sliver",
+      "image": "http://coverartarchive.org/release/eaff5199-b86c-4bca-a4b5-c7c33e10e88d/9472279686.jpg"
+    },
+    {
+      "id": "8c22577f-aaea-3973-9d27-20731751e088",
+      "title": "Candy / Molly’s Lips",
+      "image": "http://coverartarchive.org/release/a8b2b2e8-f366-4903-afe8-d4ca1332c13d/2431816526.jpg"
+    },
+    {
+      "id": "40f18565-ab15-3a93-8a9a-4ed6be9a112e",
+      "title": "Here She Comes Now / Venus in Furs",
+      "image": "http://coverartarchive.org/release/3fce74e6-2898-478e-81b3-c72a8fb4cb89/2122237969.jpg"
+    },
+    {
+      "id": "95563c6a-92e5-456c-9f86-6fe2ff1d148e",
+      "title": "2 for 1: Incesticide / In Utero",
+      "image": "http://coverartarchive.org/release/2212997f-921f-4a8f-b51f-90e937f2a786/3507975527.jpg"
+    },
+    {
+      "id": "55fca0ec-17ed-4860-b700-ef366574aa42",
+      "title": "Live! Tonight! Sold Out!!",
+      "image": "http://coverartarchive.org/release/6e19db7e-c73c-4c69-9f7a-02fcf3469bc4/14448773558.jpg"
+    },
+    {
+      "id": "5d8050da-e5c9-3a1b-9e39-0a73620218c0",
+      "title": "In Bloom",
+      "image": "http://coverartarchive.org/release/408ecab2-0edc-4e8b-862c-4775343d0d01/23613278976.png"
+    },
+    {
+      "id": "48f5d526-0fa6-4ca6-ac59-9b2cf9ef464f",
+      "title": "Live at Reading",
+      "image": "http://coverartarchive.org/release/5c3257c8-6b2f-4860-9437-2410509443c7/5520436854.jpg"
+    },
+    {
+      "id": "be95ba52-8a66-3769-82ad-b5024e993ad7",
+      "title": "Lithium",
+      "image": "http://coverartarchive.org/release/66e3881f-000c-4634-92fb-3d214dc5974a/20624171717.jpg"
+    },
+    {
+      "id": "6970c348-86ce-3902-bee3-d2ebabc2643d",
+      "title": "Come as You Are",
+      "image": "http://coverartarchive.org/release/ceffc5e5-ae9f-4d24-a8e7-8e22e89a5153/7078534267.jpg"
+    },
+    {
+      "id": "e9674d41-d94b-344a-89f5-734736853d5f",
+      "title": "Sliver: The Best of the Box",
+      "image": "http://coverartarchive.org/release/44a67cc6-4556-485d-a5a4-a9b0598f0a22/14320871851.jpg"
+    },
+    {
+      "id": "5ab32af4-c62e-3cbf-aa8c-c761581d3b94",
+      "title": "Nirvana",
+      "image": "http://coverartarchive.org/release/56a92998-6dcc-36a9-9efc-5b7096ee0e41/6004135234.jpg"
+    },
+    {
+      "id": "04f53329-d0d0-3b0d-856a-1e2cbcde0e69",
+      "title": "Love Buzz",
+      "image": "http://coverartarchive.org/release/2c84c9b3-d1d4-48c0-a825-a360f26a5dde/1004652110.jpg"
+    },
+    {
+      "id": "e0372c5a-1750-46ec-8f1b-4b76df1fe8e7",
+      "title": "Live at the Paramount",
+      "image": "http://coverartarchive.org/release/cfac8488-17f6-49ee-8172-020f80a8d4c7/6890866619.jpg"
+    },
+    {
+      "id": "03345972-d2f8-36bb-b49a-03a9ceccb7a7",
+      "title": "Smells Like Teen Spirit",
+      "image": "http://coverartarchive.org/release/6a3e3fe7-3cc5-3a6d-b3aa-6fbb12d5b9b2/26006616013.jpg"
+    },
+    {
+      "id": "d4d28ec1-220a-327c-93c5-ae006be43598",
+      "title": "With the Lights Out",
+      "image": "http://coverartarchive.org/release/49aea534-c8d0-4174-a578-5845c45ee1dc/26195412828.jpg"
+    },
+    {
+      "id": "fb3770f6-83fb-32b7-85c4-1f522a92287e",
+      "title": "MTV Unplugged in New York",
+      "image": "http://coverartarchive.org/release/e5edb300-0df6-4089-87ae-ab4bfd20b66d/5930727027.jpg"
+    },
+    {
+      "id": "5cc5dc44-8860-462e-8aa5-2cf9b71af237",
+      "title": "ICON",
+      "image": "http://coverartarchive.org/release/95509fa6-3ea9-40bc-acd1-f463b5ce460d/14320546509.jpg"
+    },
+    {
+      "id": "fe317a1e-4339-4c45-86f4-229c33aa27ad",
+      "title": "Fully Illustrated Book & Interview Disc",
+      "image": "http://coverartarchive.org/release/632e3b0e-eef1-4362-8860-f45ef76b045b/28884791470.jpg"
+    },
+    {
+      "id": "249e7835-5c39-3a10-b15b-e2d3470fb40c",
+      "title": "From the Muddy Banks of the Wishkah",
+      "image": "http://coverartarchive.org/release/f3cdc87a-b483-4aea-b3e2-80a94f704463/23592850780.jpg"
+    },
+    {
+      "id": "603761e1-7d54-41d3-b56b-f012a449f163",
+      "title": "Complete Live On KAOS FM 1987",
+      "image": "http://coverartarchive.org/release/6dd7fd05-ed4a-414b-af5d-ba5ee9a545a9/23977220506.jpg"
+    },
+    {
+      "id": "01cf1391-141b-3c87-8650-45ade6e59070",
+      "title": "Incesticide",
+      "image": "http://coverartarchive.org/release/726ca690-fe70-4d3f-86b5-f8347f1a1af0/1289818412.jpg"
+    },
+    {
+      "id": "f1afec0b-26dd-3db5-9aa1-c91229a74a24",
+      "title": "Bleach",
+      "image": "http://coverartarchive.org/release/7d166a44-cfb5-4b08-aacb-6863bbe677d6/1247101964.jpg"
+    },
+    {
+      "id": "1b022e01-4da6-387b-8658-8678046e4cef",
+      "title": "Nevermind",
+      "image": "http://coverartarchive.org/release/a146429a-cedc-3ab0-9e41-1aaf5f6cdc2d/3012495605.jpg"
+    }
+  ]
+}

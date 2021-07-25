@@ -33,7 +33,7 @@ public class MusicSourceResourceV1 {
      */
     public MusicSourceResponse getAlbumInfoByMbId(String mbid) {
         Metadata artistData = musicBrainzService.getArtistDataByMbId(mbid);
-        String wikiDescription = wikipediaService.getWikiData(artistData);
+        String wikiDescription = wikipediaService.getDescriptionFromWikipedia(artistData);
         return buildResponse(mbid, wikiDescription, coverArtArchiveService.getAlbums(artistData));
     }
 

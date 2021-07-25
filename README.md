@@ -1,6 +1,6 @@
 # music-source
-To start the service localy you will need to run a dockerized version of Mongo if you do not have one running already with default settings. 
-- Exampe for running mongoDB using docker-compose and docker file: 
+To start the service locally you will need to run a dockerized version of Mongo if you do not have one running already with default settings. 
+- Example for running mongoDB using docker-compose and docker file: 
 
 docker-compose.yaml example conetn
 ```
@@ -24,7 +24,7 @@ docker-compose up
 ```
 or 
 ```
-docker-compose up  -d
+docker-compose up -d
 ```
 to run as a demon
 
@@ -48,7 +48,7 @@ Nirvana
 http://localhost:8080/api/v1/musicsource/5b11f4ce-a62d-471e-81fc-a69a8278c7da
 ```
 
-Metalica
+Metallica
 ```
 http://localhost:8080/api/v1/musicsource/65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab
 ```

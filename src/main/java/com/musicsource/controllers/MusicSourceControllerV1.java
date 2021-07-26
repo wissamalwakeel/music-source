@@ -16,6 +16,10 @@ public class MusicSourceControllerV1 {
     MusicSourceResourceV1 musicSourceResource;
 
     /**
+     * Collect the description from "wikidata/wikipedia" and the albums with the cover art from "CoverArtArchive" after retriving the artist data from Musicbrainz
+     * using the MBID provided as a url parameter for this request.
+     * if MBID is not mapped to an artist we gat back a 404 error. 
+     *
      * @param mbId path parameter String representing the UUID of the artist/band from MusicBrainz
      * @return Json string including the mbid and a description of the artist/band from wikipedia and a list of albums released with cover image links from "Cover Art
      * Archive" and ids from "MusicBrainz"

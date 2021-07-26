@@ -52,8 +52,10 @@ public class MusicSourceResourceV1TestIT {
 
     @Test
     public void getAlbumInfoByMbIdSuccessIT() {
-        MusicSourceResponse response = musicSourceResourceV1.getAlbumInfoByMbId("5b11f4ce-a62d-471e-81fc-a69a8278c7da");
+        final String MBID = "5b11f4ce-a62d-471e-81fc-a69a8278c7da";
+        MusicSourceResponse response = musicSourceResourceV1.getAlbumInfoByMbId(MBID);
         Assert.assertNotNull(response);
         Assert.assertEquals(musicSourceResponse.getDescription(), response.getDescription());
+        Assert.assertEquals(MBID, response.getMbid());
     }
 }

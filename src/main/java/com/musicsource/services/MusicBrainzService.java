@@ -48,7 +48,7 @@ public class MusicBrainzService {
         Metadata response = new Metadata();
         try {
             LOGGER.log(Level.DEBUG, "Retrieving Artist Data from MusicBrainz service for mbid:{} ", mbid);
-            response = getArtistMetadata(mbid, webService);
+            response = getArtistMetadata(mbid);
             LOGGER.log(Level.INFO, MessageFormat.format("Retrieved Artist Data for mbid: {0} and artist name: {1}", mbid, response.getArtistWs2()));
         } catch (WebServiceException | MbXMLException e) {
             LOGGER.log(Level.ERROR, e.getMessage(), e);
@@ -56,7 +56,7 @@ public class MusicBrainzService {
         return response;
     }
 
-    private Metadata getArtistMetadata(String mbid, WebService webService) throws WebServiceException, MbXMLException {
+    private Metadata getArtistMetadata(String mbid) throws WebServiceException, MbXMLException {
         return webService.get("artist", mbid, null, filters);
     }
 }

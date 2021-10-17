@@ -3,9 +3,6 @@ package com.musicsource.resources;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.musicsource.app.MusicSourceApplication;
 import com.musicsource.models.MusicSourceResponse;
-import com.musicsource.services.CoverArtArchiveService;
-import com.musicsource.services.MusicBrainzService;
-import com.musicsource.services.WikipediaService;
 import java.io.File;
 import java.io.IOException;
 import org.junit.Assert;
@@ -15,7 +12,6 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.mock.mockito.SpyBean;
 import org.springframework.test.context.junit4.SpringRunner;
 
 
@@ -27,15 +23,6 @@ public class MusicSourceResourceV1IT {
     // configuration other option would be to use Feign Request Interceptor or OpenFeign to intercept the request and
     // mock the response, I only used Feign and mockServer once for each, for the mockServer I used a standalone version
     // for testing multiple services with predefined templates and works as a proxy as well.
-
-    @SpyBean
-    WikipediaService wikipediaService;
-
-    @SpyBean
-    MusicBrainzService musicBrainzService;
-
-    @SpyBean
-    CoverArtArchiveService coverArtArchiveService;
 
     @Autowired
     MusicSourceResourceV1 musicSourceResourceV1;

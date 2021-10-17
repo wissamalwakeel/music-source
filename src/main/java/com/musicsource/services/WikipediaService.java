@@ -64,7 +64,7 @@ public class WikipediaService {
         return getCleanDescription(wikiResponse);
     }
 
-    private String getCleanDescription(WikiResponse wikiResponse) { ;
+    private synchronized String getCleanDescription(WikiResponse wikiResponse) { ;
         return ((WikiPageData) ((Map.Entry) wikiResponse.getQuery().getPages().entrySet().toArray()[0]).getValue())
                 .getExtract().replaceAll("(<p class=\\\"mw-empty-elt\\\">\\n+<\\/p>\\n)|(<!--[\\s\\S]*?-->)|(\\n+)", "");
     }

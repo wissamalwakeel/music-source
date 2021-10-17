@@ -33,7 +33,7 @@ public class CoverArtArchiveService {
      * @param artistData the MusicBrainz response object containing the artist/band data
      * @return a List of Album objects
      */
-    public List<Album> getAlbums(Metadata artistData) {
+    public synchronized List<Album> getAlbums(Metadata artistData) {
         List<Album> albums = new ArrayList<>();
         artistData.getArtistWs2().getReleaseGroupList().getReleaseGroups().stream().parallel().forEach(releaseGroup -> {
             LOGGER.log(Level.DEBUG, MessageFormat.format("Trying retrieving image from cache or Cover Art " +
